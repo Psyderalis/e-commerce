@@ -12,7 +12,7 @@ export default function Products() {
               })
     }, [])
     return (
-        <div>
+        <div className="justify-content-lg-around">
           {
             products.map((product) => {
               return (
