@@ -1,4 +1,6 @@
+import { useEffect, useState } from 'react'
 import './App.css'
+import Products from './pages/Products'
 
 // SE UNIFICAN LOS COMPONENTES Y PAGES 
 // Router
@@ -7,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <button type="button" className="btn btn-dark">FUNCIONA BS</button>
+      <Products />
     </div>
   )
 }
